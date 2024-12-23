@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:sans-serif;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro{
+    margin-top: 20px;
+    margin-left: 4%;
+}
+.nav{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    background-color: white;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    
+}
+#but{
+    background-color: hotpink;
+    border: 2px solid hotpink;
+    border-radius: 15%;
+    color: white;
+    margin-right: 20px;
+    padding: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+.para{
+    margin: 50px;
+    margin-top: 10%;
+}
+.body{
+    display: flex;
+}
+img{
+    height: 400px;
+    width: 400px;
+    margin: 15px;
+    margin-right: 100px;
+}
+.end{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+#hi{
+    background-color: white;
+    border: 2px solid hotpink;
+    border-radius: 15%;
+    color: hotpink;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#pro{
+    background-color: white;
+    border: 2px solid hotpink;
+    border-radius: 15%;
+    color:hotpink;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#hi:hover{
+    color: white;
+    background-color: hotpink;
+}
+#pro:hover{
+    color: white;
+    background-color: hotpink;
+}
+.more{
+    margin-left: 4%;
+}
+#ins{
+    padding: 20px;
+}
+#fb{
+    padding: 20px;
+}
+#pin{
+    padding: 20px;
+}
